@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EBC7637189BC6B90033CD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC7636189BC6B90033CD64 /* Foundation.framework */; };
+		0EBC7639189BC6B90033CD64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC7638189BC6B90033CD64 /* CoreGraphics.framework */; };
+		0EBC763B189BC6B90033CD64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC763A189BC6B90033CD64 /* UIKit.framework */; };
+		0EBC7641189BC6B90033CD64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC763F189BC6B90033CD64 /* InfoPlist.strings */; };
+		0EBC7643189BC6B90033CD64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC7642189BC6B90033CD64 /* main.m */; };
+		0EBC7647189BC6B90033CD64 /* taoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC7646189BC6B90033CD64 /* taoAppDelegate.m */; };
+		0EBC764A189BC6B90033CD64 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC7648189BC6B90033CD64 /* Main_iPhone.storyboard */; };
+		0EBC764D189BC6B90033CD64 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC764B189BC6B90033CD64 /* Main_iPad.storyboard */; };
+		0EBC7650189BC6B90033CD64 /* taoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC764F189BC6B90033CD64 /* taoViewController.m */; };
+		0EBC7652189BC6B90033CD64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC7651189BC6B90033CD64 /* Images.xcassets */; };
+		0EBC7659189BC6B90033CD64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC7658189BC6B90033CD64 /* XCTest.framework */; };
+		0EBC765A189BC6B90033CD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC7636189BC6B90033CD64 /* Foundation.framework */; };
+		0EBC765B189BC6B90033CD64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC763A189BC6B90033CD64 /* UIKit.framework */; };
+		0EBC7663189BC6B90033CD64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC7661189BC6B90033CD64 /* InfoPlist.strings */; };
+		0EBC7665189BC6B90033CD64 /* loyalTeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC7664189BC6B90033CD64 /* loyalTeaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EBC765C189BC6B90033CD64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EBC762B189BC6B90033CD64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EBC7632189BC6B90033CD64;
+			remoteInfo = loyalTea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EBC7633189BC6B90033CD64 /* loyalTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loyalTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBC7636189BC6B90033CD64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EBC7638189BC6B90033CD64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EBC763A189BC6B90033CD64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EBC763E189BC6B90033CD64 /* loyalTea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loyalTea-Info.plist"; sourceTree = "<group>"; };
+		0EBC7640189BC6B90033CD64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EBC7642189BC6B90033CD64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EBC7644189BC6B90033CD64 /* loyalTea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "loyalTea-Prefix.pch"; sourceTree = "<group>"; };
+		0EBC7645189BC6B90033CD64 /* taoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = taoAppDelegate.h; sourceTree = "<group>"; };
+		0EBC7646189BC6B90033CD64 /* taoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taoAppDelegate.m; sourceTree = "<group>"; };
+		0EBC7649189BC6B90033CD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0EBC764C189BC6B90033CD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0EBC764E189BC6B90033CD64 /* taoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = taoViewController.h; sourceTree = "<group>"; };
+		0EBC764F189BC6B90033CD64 /* taoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taoViewController.m; sourceTree = "<group>"; };
+		0EBC7651189BC6B90033CD64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0EBC7657189BC6B90033CD64 /* loyalTeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loyalTeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBC7658189BC6B90033CD64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0EBC7660189BC6B90033CD64 /* loyalTeaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loyalTeaTests-Info.plist"; sourceTree = "<group>"; };
+		0EBC7662189BC6B90033CD64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EBC7664189BC6B90033CD64 /* loyalTeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loyalTeaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EBC7630189BC6B90033CD64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBC7639189BC6B90033CD64 /* CoreGraphics.framework in Frameworks */,
+				0EBC763B189BC6B90033CD64 /* UIKit.framework in Frameworks */,
+				0EBC7637189BC6B90033CD64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EBC7654189BC6B90033CD64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBC7659189BC6B90033CD64 /* XCTest.framework in Frameworks */,
+				0EBC765B189BC6B90033CD64 /* UIKit.framework in Frameworks */,
+				0EBC765A189BC6B90033CD64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EBC762A189BC6B90033CD64 = {
+			isa = PBXGroup;
+			children = (
+				0EBC763C189BC6B90033CD64 /* loyalTea */,
+				0EBC765E189BC6B90033CD64 /* loyalTeaTests */,
+				0EBC7635189BC6B90033CD64 /* Frameworks */,
+				0EBC7634189BC6B90033CD64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EBC7634189BC6B90033CD64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EBC7633189BC6B90033CD64 /* loyalTea.app */,
+				0EBC7657189BC6B90033CD64 /* loyalTeaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EBC7635189BC6B90033CD64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EBC7636189BC6B90033CD64 /* Foundation.framework */,
+				0EBC7638189BC6B90033CD64 /* CoreGraphics.framework */,
+				0EBC763A189BC6B90033CD64 /* UIKit.framework */,
+				0EBC7658189BC6B90033CD64 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EBC763C189BC6B90033CD64 /* loyalTea */ = {
+			isa = PBXGroup;
+			children = (
+				0EBC7645189BC6B90033CD64 /* taoAppDelegate.h */,
+				0EBC7646189BC6B90033CD64 /* taoAppDelegate.m */,
+				0EBC7648189BC6B90033CD64 /* Main_iPhone.storyboard */,
+				0EBC764B189BC6B90033CD64 /* Main_iPad.storyboard */,
+				0EBC764E189BC6B90033CD64 /* taoViewController.h */,
+				0EBC764F189BC6B90033CD64 /* taoViewController.m */,
+				0EBC7651189BC6B90033CD64 /* Images.xcassets */,
+				0EBC763D189BC6B90033CD64 /* Supporting Files */,
+			);
+			path = loyalTea;
+			sourceTree = "<group>";
+		};
+		0EBC763D189BC6B90033CD64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EBC763E189BC6B90033CD64 /* loyalTea-Info.plist */,
+				0EBC763F189BC6B90033CD64 /* InfoPlist.strings */,
+				0EBC7642189BC6B90033CD64 /* main.m */,
+				0EBC7644189BC6B90033CD64 /* loyalTea-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EBC765E189BC6B90033CD64 /* loyalTeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EBC7664189BC6B90033CD64 /* loyalTeaTests.m */,
+				0EBC765F189BC6B90033CD64 /* Supporting Files */,
+			);
+			path = loyalTeaTests;
+			sourceTree = "<group>";
+		};
+		0EBC765F189BC6B90033CD64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EBC7660189BC6B90033CD64 /* loyalTeaTests-Info.plist */,
+				0EBC7661189BC6B90033CD64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EBC7632189BC6B90033CD64 /* loyalTea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EBC7668189BC6B90033CD64 /* Build configuration list for PBXNativeTarget "loyalTea" */;
+			buildPhases = (
+				0EBC762F189BC6B90033CD64 /* Sources */,
+				0EBC7630189BC6B90033CD64 /* Frameworks */,
+				0EBC7631189BC6B90033CD64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loyalTea;
+			productName = loyalTea;
+			productReference = 0EBC7633189BC6B90033CD64 /* loyalTea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EBC7656189BC6B90033CD64 /* loyalTeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EBC766B189BC6B90033CD64 /* Build configuration list for PBXNativeTarget "loyalTeaTests" */;
+			buildPhases = (
+				0EBC7653189BC6B90033CD64 /* Sources */,
+				0EBC7654189BC6B90033CD64 /* Frameworks */,
+				0EBC7655189BC6B90033CD64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EBC765D189BC6B90033CD64 /* PBXTargetDependency */,
+			);
+			name = loyalTeaTests;
+			productName = loyalTeaTests;
+			productReference = 0EBC7657189BC6B90033CD64 /* loyalTeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EBC762B189BC6B90033CD64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tao;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TandO;
+				TargetAttributes = {
+					0EBC7656189BC6B90033CD64 = {
+						TestTargetID = 0EBC7632189BC6B90033CD64;
+					};
+				};
+			};
+			buildConfigurationList = 0EBC762E189BC6B90033CD64 /* Build configuration list for PBXProject "loyalTea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EBC762A189BC6B90033CD64;
+			productRefGroup = 0EBC7634189BC6B90033CD64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EBC7632189BC6B90033CD64 /* loyalTea */,
+				0EBC7656189BC6B90033CD64 /* loyalTeaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EBC7631189BC6B90033CD64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBC764D189BC6B90033CD64 /* Main_iPad.storyboard in Resources */,
+				0EBC7652189BC6B90033CD64 /* Images.xcassets in Resources */,
+				0EBC764A189BC6B90033CD64 /* Main_iPhone.storyboard in Resources */,
+				0EBC7641189BC6B90033CD64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EBC7655189BC6B90033CD64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBC7663189BC6B90033CD64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EBC762F189BC6B90033CD64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBC7643189BC6B90033CD64 /* main.m in Sources */,
+				0EBC7647189BC6B90033CD64 /* taoAppDelegate.m in Sources */,
+				0EBC7650189BC6B90033CD64 /* taoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EBC7653189BC6B90033CD64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBC7665189BC6B90033CD64 /* loyalTeaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EBC765D189BC6B90033CD64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EBC7632189BC6B90033CD64 /* loyalTea */;
+			targetProxy = 0EBC765C189BC6B90033CD64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EBC763F189BC6B90033CD64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EBC7640189BC6B90033CD64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EBC7648189BC6B90033CD64 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EBC7649189BC6B90033CD64 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0EBC764B189BC6B90033CD64 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EBC764C189BC6B90033CD64 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0EBC7661189BC6B90033CD64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EBC7662189BC6B90033CD64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EBC7666189BC6B90033CD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EBC7667189BC6B90033CD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EBC7669189BC6B90033CD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loyalTea/loyalTea-Prefix.pch";
+				INFOPLIST_FILE = "loyalTea/loyalTea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EBC766A189BC6B90033CD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loyalTea/loyalTea-Prefix.pch";
+				INFOPLIST_FILE = "loyalTea/loyalTea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0EBC766C189BC6B90033CD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/loyalTea.app/loyalTea";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loyalTea/loyalTea-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "loyalTeaTests/loyalTeaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0EBC766D189BC6B90033CD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/loyalTea.app/loyalTea";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loyalTea/loyalTea-Prefix.pch";
+				INFOPLIST_FILE = "loyalTeaTests/loyalTeaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EBC762E189BC6B90033CD64 /* Build configuration list for PBXProject "loyalTea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBC7666189BC6B90033CD64 /* Debug */,
+				0EBC7667189BC6B90033CD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EBC7668189BC6B90033CD64 /* Build configuration list for PBXNativeTarget "loyalTea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBC7669189BC6B90033CD64 /* Debug */,
+				0EBC766A189BC6B90033CD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EBC766B189BC6B90033CD64 /* Build configuration list for PBXNativeTarget "loyalTeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBC766C189BC6B90033CD64 /* Debug */,
+				0EBC766D189BC6B90033CD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EBC762B189BC6B90033CD64 /* Project object */;
+}
