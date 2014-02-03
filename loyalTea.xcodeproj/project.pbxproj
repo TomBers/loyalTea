@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3F104A189E4CA60094FFE0 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F1047189E4CA60094FFE0 /* b.png */; };
+		0E3F104B189E4CA60094FFE0 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F1048189E4CA60094FFE0 /* c.png */; };
+		0E3F104C189E4CA60094FFE0 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F1049189E4CA60094FFE0 /* a.png */; };
+		0E3F104F189E52290094FFE0 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F104E189E52290094FFE0 /* detailViewController.m */; };
+		0E3F1052189E74430094FFE0 /* stampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F1051189E74430094FFE0 /* stampViewController.m */; };
+		0E3F1055189E7EC70094FFE0 /* cafeDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F1053189E7EC70094FFE0 /* cafeDataModel.xcdatamodeld */; };
+		0E3F1057189E80070094FFE0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3F1056189E80070094FFE0 /* CoreData.framework */; };
+		0E3F1059189E82950094FFE0 /* costa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F1058189E82950094FFE0 /* costa.jpeg */; };
+		0E3F105B189E829A0094FFE0 /* cafeNero.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F105A189E829A0094FFE0 /* cafeNero.jpeg */; };
+		0E3F105D189E82A00094FFE0 /* starbucks.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0E3F105C189E82A00094FFE0 /* starbucks.jpeg */; };
 		0EBC7637189BC6B90033CD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC7636189BC6B90033CD64 /* Foundation.framework */; };
 		0EBC7639189BC6B90033CD64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC7638189BC6B90033CD64 /* CoreGraphics.framework */; };
 		0EBC763B189BC6B90033CD64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC763A189BC6B90033CD64 /* UIKit.framework */; };
@@ -15,13 +25,15 @@
 		0EBC7647189BC6B90033CD64 /* taoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC7646189BC6B90033CD64 /* taoAppDelegate.m */; };
 		0EBC764A189BC6B90033CD64 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC7648189BC6B90033CD64 /* Main_iPhone.storyboard */; };
 		0EBC764D189BC6B90033CD64 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC764B189BC6B90033CD64 /* Main_iPad.storyboard */; };
-		0EBC7650189BC6B90033CD64 /* taoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC764F189BC6B90033CD64 /* taoViewController.m */; };
 		0EBC7652189BC6B90033CD64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC7651189BC6B90033CD64 /* Images.xcassets */; };
 		0EBC7659189BC6B90033CD64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC7658189BC6B90033CD64 /* XCTest.framework */; };
 		0EBC765A189BC6B90033CD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC7636189BC6B90033CD64 /* Foundation.framework */; };
 		0EBC765B189BC6B90033CD64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBC763A189BC6B90033CD64 /* UIKit.framework */; };
 		0EBC7663189BC6B90033CD64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC7661189BC6B90033CD64 /* InfoPlist.strings */; };
 		0EBC7665189BC6B90033CD64 /* loyalTeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC7664189BC6B90033CD64 /* loyalTeaTests.m */; };
+		0EBC766F189BD61E0033CD64 /* stamp_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC766E189BD61E0033CD64 /* stamp_3.jpg */; };
+		0EBC7672189BDAEF0033CD64 /* CafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC7671189BDAEF0033CD64 /* CafeViewController.m */; };
+		0EBC7675189BDBAD0033CD64 /* Cafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC7674189BDBAD0033CD64 /* Cafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3F1047189E4CA60094FFE0 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		0E3F1048189E4CA60094FFE0 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		0E3F1049189E4CA60094FFE0 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		0E3F104D189E52290094FFE0 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		0E3F104E189E52290094FFE0 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		0E3F1050189E74430094FFE0 /* stampViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stampViewController.h; sourceTree = "<group>"; };
+		0E3F1051189E74430094FFE0 /* stampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stampViewController.m; sourceTree = "<group>"; };
+		0E3F1054189E7EC70094FFE0 /* cafeDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cafeDataModel.xcdatamodel; sourceTree = "<group>"; };
+		0E3F1056189E80070094FFE0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0E3F1058189E82950094FFE0 /* costa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = costa.jpeg; sourceTree = "<group>"; };
+		0E3F105A189E829A0094FFE0 /* cafeNero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafeNero.jpeg; sourceTree = "<group>"; };
+		0E3F105C189E82A00094FFE0 /* starbucks.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks.jpeg; sourceTree = "<group>"; };
 		0EBC7633189BC6B90033CD64 /* loyalTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loyalTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBC7636189BC6B90033CD64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EBC7638189BC6B90033CD64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +71,17 @@
 		0EBC7646189BC6B90033CD64 /* taoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taoAppDelegate.m; sourceTree = "<group>"; };
 		0EBC7649189BC6B90033CD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		0EBC764C189BC6B90033CD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		0EBC764E189BC6B90033CD64 /* taoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = taoViewController.h; sourceTree = "<group>"; };
-		0EBC764F189BC6B90033CD64 /* taoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taoViewController.m; sourceTree = "<group>"; };
 		0EBC7651189BC6B90033CD64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0EBC7657189BC6B90033CD64 /* loyalTeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loyalTeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBC7658189BC6B90033CD64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0EBC7660189BC6B90033CD64 /* loyalTeaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loyalTeaTests-Info.plist"; sourceTree = "<group>"; };
 		0EBC7662189BC6B90033CD64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EBC7664189BC6B90033CD64 /* loyalTeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loyalTeaTests.m; sourceTree = "<group>"; };
+		0EBC766E189BD61E0033CD64 /* stamp_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp_3.jpg; sourceTree = "<group>"; };
+		0EBC7670189BDAEF0033CD64 /* CafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CafeViewController.h; sourceTree = "<group>"; };
+		0EBC7671189BDAEF0033CD64 /* CafeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CafeViewController.m; sourceTree = "<group>"; };
+		0EBC7673189BDBAD0033CD64 /* Cafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cafe.h; sourceTree = "<group>"; };
+		0EBC7674189BDBAD0033CD64 /* Cafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cafe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3F1057189E80070094FFE0 /* CoreData.framework in Frameworks */,
 				0EBC7639189BC6B90033CD64 /* CoreGraphics.framework in Frameworks */,
 				0EBC763B189BC6B90033CD64 /* UIKit.framework in Frameworks */,
 				0EBC7637189BC6B90033CD64 /* Foundation.framework in Frameworks */,
@@ -103,6 +131,7 @@
 		0EBC7635189BC6B90033CD64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E3F1056189E80070094FFE0 /* CoreData.framework */,
 				0EBC7636189BC6B90033CD64 /* Foundation.framework */,
 				0EBC7638189BC6B90033CD64 /* CoreGraphics.framework */,
 				0EBC763A189BC6B90033CD64 /* UIKit.framework */,
@@ -114,14 +143,28 @@
 		0EBC763C189BC6B90033CD64 /* loyalTea */ = {
 			isa = PBXGroup;
 			children = (
+				0E3F105C189E82A00094FFE0 /* starbucks.jpeg */,
+				0E3F105A189E829A0094FFE0 /* cafeNero.jpeg */,
+				0E3F1058189E82950094FFE0 /* costa.jpeg */,
+				0E3F1047189E4CA60094FFE0 /* b.png */,
+				0E3F1048189E4CA60094FFE0 /* c.png */,
+				0E3F1049189E4CA60094FFE0 /* a.png */,
+				0EBC766E189BD61E0033CD64 /* stamp_3.jpg */,
 				0EBC7645189BC6B90033CD64 /* taoAppDelegate.h */,
 				0EBC7646189BC6B90033CD64 /* taoAppDelegate.m */,
 				0EBC7648189BC6B90033CD64 /* Main_iPhone.storyboard */,
+				0E3F1050189E74430094FFE0 /* stampViewController.h */,
+				0E3F1051189E74430094FFE0 /* stampViewController.m */,
+				0E3F104D189E52290094FFE0 /* detailViewController.h */,
+				0E3F104E189E52290094FFE0 /* detailViewController.m */,
+				0EBC7670189BDAEF0033CD64 /* CafeViewController.h */,
+				0EBC7673189BDBAD0033CD64 /* Cafe.h */,
+				0EBC7674189BDBAD0033CD64 /* Cafe.m */,
+				0EBC7671189BDAEF0033CD64 /* CafeViewController.m */,
 				0EBC764B189BC6B90033CD64 /* Main_iPad.storyboard */,
-				0EBC764E189BC6B90033CD64 /* taoViewController.h */,
-				0EBC764F189BC6B90033CD64 /* taoViewController.m */,
 				0EBC7651189BC6B90033CD64 /* Images.xcassets */,
 				0EBC763D189BC6B90033CD64 /* Supporting Files */,
+				0E3F1053189E7EC70094FFE0 /* cafeDataModel.xcdatamodeld */,
 			);
 			path = loyalTea;
 			sourceTree = "<group>";
@@ -232,9 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3F104A189E4CA60094FFE0 /* b.png in Resources */,
+				0E3F104C189E4CA60094FFE0 /* a.png in Resources */,
 				0EBC764D189BC6B90033CD64 /* Main_iPad.storyboard in Resources */,
+				0E3F104B189E4CA60094FFE0 /* c.png in Resources */,
 				0EBC7652189BC6B90033CD64 /* Images.xcassets in Resources */,
 				0EBC764A189BC6B90033CD64 /* Main_iPhone.storyboard in Resources */,
+				0E3F105D189E82A00094FFE0 /* starbucks.jpeg in Resources */,
+				0E3F1059189E82950094FFE0 /* costa.jpeg in Resources */,
+				0EBC766F189BD61E0033CD64 /* stamp_3.jpg in Resources */,
+				0E3F105B189E829A0094FFE0 /* cafeNero.jpeg in Resources */,
 				0EBC7641189BC6B90033CD64 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBC7675189BDBAD0033CD64 /* Cafe.m in Sources */,
 				0EBC7643189BC6B90033CD64 /* main.m in Sources */,
+				0EBC7672189BDAEF0033CD64 /* CafeViewController.m in Sources */,
 				0EBC7647189BC6B90033CD64 /* taoAppDelegate.m in Sources */,
-				0EBC7650189BC6B90033CD64 /* taoViewController.m in Sources */,
+				0E3F1052189E74430094FFE0 /* stampViewController.m in Sources */,
+				0E3F104F189E52290094FFE0 /* detailViewController.m in Sources */,
+				0E3F1055189E7EC70094FFE0 /* cafeDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +529,7 @@
 				0EBC766A189BC6B90033CD64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EBC766B189BC6B90033CD64 /* Build configuration list for PBXNativeTarget "loyalTeaTests" */ = {
 			isa = XCConfigurationList;
@@ -483,8 +538,22 @@
 				0EBC766D189BC6B90033CD64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0E3F1053189E7EC70094FFE0 /* cafeDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0E3F1054189E7EC70094FFE0 /* cafeDataModel.xcdatamodel */,
+			);
+			currentVersion = 0E3F1054189E7EC70094FFE0 /* cafeDataModel.xcdatamodel */;
+			path = cafeDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0EBC762B189BC6B90033CD64 /* Project object */;
 }

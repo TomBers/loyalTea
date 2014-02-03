@@ -7,12 +7,47 @@
 //
 
 #import "taoAppDelegate.h"
+#import "Cafe.h"
+#import "CafeViewController.h"
 
 @implementation taoAppDelegate
 
+//    NSMutableArray *_cafes;
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    NSMutableArray *_cafes = [NSMutableArray arrayWithCapacity:20];
+    
+    Cafe *player = [[Cafe alloc] init];
+    player.name = @"Costa Coffee";
+    player.decs = @"Coffee from ... ";
+    player.rating = 4;
+    player.img = @"costa.jpeg";
+    [_cafes addObject:player];
+    
+    player = [[Cafe alloc] init];
+    player.name = @"Cafe Nero";
+    player.decs = @"Its ok";
+    player.rating = 5;
+    player.img = @"cafeNero.jpeg";
+    [_cafes addObject:player];
+    
+    player = [[Cafe alloc] init];
+    player.name = @"Starbucks";
+    player.decs = @"Biggest Coffee";
+    player.rating = 2;
+    player.img = @"starbucks.jpeg";
+    [_cafes addObject:player];
+    
+//    Potential for Loading new Data
+    
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UINavigationController *navigationController = [tabBarController viewControllers][1];
+    CafeViewController *cafesViewController = [navigationController viewControllers][0];
+    cafesViewController.cafes = _cafes;
+    
     return YES;
 }
 							
