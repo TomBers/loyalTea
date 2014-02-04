@@ -50,17 +50,17 @@
     
 //    [Cafe MR_truncateAll];
     
-    NSArray *tstCafe = [Cafe MR_findByAttribute:@"cafeId" withValue:@"1"];
+    NSArray *tstCafe = [Cafe MR_findByAttribute:@"cafeId" withValue:@"2"];
     
     
     if(!tstCafe || !tstCafe.count){
         
         NSLog(@"No record found - adding Cafe");
     Cafe *costa = [Cafe MR_createInContext:localContext];
-    costa.name=@"Costa";
-    costa.desc=@"A chain coffee shop";
-    costa.cafeId = [NSNumber numberWithInt:1];
-    costa.img=@"costa.jpeg";
+    costa.name=@"Starbucks";
+    costa.desc=@"Another chain coffee shop";
+    costa.cafeId = [NSNumber numberWithInt:2];
+    costa.img=@"starbucks.jpeg";
     [localContext MR_saveToPersistentStoreAndWait];
     }
     else{

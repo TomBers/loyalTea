@@ -49,6 +49,9 @@
 
 - (IBAction)cafe1:(UIButton *)sender {
     
+    NSString *idfv = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    NSLog(@"ID : %@",idfv);
+    
     NSLog(@"Cafe 1");
    [self.image setImage:[UIImage imageNamed:@"costa.jpeg"]];
     [self saveStamp:1];
