@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Cafe.h"
+#import "Stamp.h"
 
 @interface detailViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIImageView *icon;

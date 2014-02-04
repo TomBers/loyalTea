@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Stamp.h"
 
 @interface stampViewController : UIViewController
 - (IBAction)cafe1:(UIButton *)sender;
 - (IBAction)cafe2:(UIButton *)sender;
 - (IBAction)cafe3:(UIButton *)sender;
+
 @property (strong, nonatomic) IBOutlet UIImageView *image;
 
-@property (nonatomic,strong) NSManagedObjectContext* managedObjectContext;
+@property (nonatomic,strong) NSManagedObjectContext *localContext;
 
 @end

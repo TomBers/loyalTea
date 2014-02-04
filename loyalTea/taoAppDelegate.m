@@ -18,36 +18,62 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    NSMutableArray *_cafes = [NSMutableArray arrayWithCapacity:20];
+//    NSMutableArray *_cafes = [NSMutableArray arrayWithCapacity:20];
+//    
+//    Cafe *player = [[Cafe alloc] init];
+//    player.name = @"Costa Coffee";
+//    player.desc = @"Coffee from ... ";
+////    [player.stamps initWithInt:2];
+////    player.stamps = 4;
+//    player.img = @"costa.jpeg";
+//    [_cafes addObject:player];
+//    
+//    player = [[Cafe alloc] init];
+//    player.name = @"Cafe Nero";
+//    player.desc = @"Its ok";
+////    [player.stamps initWithInt:3];
+////    player.stamps = 5;
+//    player.img = @"cafeNero.jpeg";
+//    [_cafes addObject:player];
+//    
+//    player = [[Cafe alloc] init];
+//    player.name = @"Starbucks";
+//    player.desc = @"Biggest Coffee";
+////    [player.stamps initWithInt:4];
+////    player.stamps = 2;
+//    player.img = @"starbucks.jpeg";
+//    [_cafes addObject:player];
     
-    Cafe *player = [[Cafe alloc] init];
-    player.name = @"Costa Coffee";
-    player.decs = @"Coffee from ... ";
-    player.rating = 4;
-    player.img = @"costa.jpeg";
-    [_cafes addObject:player];
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"Cafe.sqlite"];
     
-    player = [[Cafe alloc] init];
-    player.name = @"Cafe Nero";
-    player.decs = @"Its ok";
-    player.rating = 5;
-    player.img = @"cafeNero.jpeg";
-    [_cafes addObject:player];
+    NSManagedObjectContext *localContext = [NSManagedObjectContext MR_contextForCurrentThread];
     
-    player = [[Cafe alloc] init];
-    player.name = @"Starbucks";
-    player.decs = @"Biggest Coffee";
-    player.rating = 2;
-    player.img = @"starbucks.jpeg";
-    [_cafes addObject:player];
+//    [Cafe MR_truncateAll];
+    
+    NSArray *tstCafe = [Cafe MR_findByAttribute:@"cafeId" withValue:@"1"];
+    
+    
+    if(!tstCafe || !tstCafe.count){
+        
+        NSLog(@"No record found - adding Cafe");
+    Cafe *costa = [Cafe MR_createInContext:localContext];
+    costa.name=@"Costa";
+    costa.desc=@"A chain coffee shop";
+    costa.cafeId = [NSNumber numberWithInt:1];
+    costa.img=@"costa.jpeg";
+    [localContext MR_saveToPersistentStoreAndWait];
+    }
+    else{
+        NSLog(@"Record found - no new Cafe created");
+    }
     
 //    Potential for Loading new Data
     
     UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
     UINavigationController *navigationController = [tabBarController viewControllers][1];
     CafeViewController *cafesViewController = [navigationController viewControllers][0];
-    cafesViewController.cafes = _cafes;
-    
+    cafesViewController.cafes = [Cafe MR_findAll];
+//
     return YES;
 }
 							
@@ -76,6 +102,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [MagicalRecord cleanUp];
 }
 
 @end

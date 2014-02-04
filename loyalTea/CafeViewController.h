@@ -10,6 +10,6 @@
 
 @interface CafeViewController : UITableViewController
 
-@property (nonatomic, strong) NSMutableArray *cafes;
+@property (nonatomic, strong) NSArray *cafes;
 
 @end

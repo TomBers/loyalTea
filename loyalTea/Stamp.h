@@ -1,5 +1,5 @@
 //
-//  Cafe.h
+//  Stamp.h
 //  loyalTea
 //
 //  Created by Tom Berman on 04/02/2014.
@@ -10,11 +10,9 @@
 #import <CoreData/CoreData.h>
 
 
-@interface Cafe : NSManagedObject
+@interface Stamp : NSManagedObject
 
-@property (nonatomic, retain) NSString * desc;
-@property (nonatomic, retain) NSString * img;
-@property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * cafeId;
+@property (nonatomic, retain) NSDate * timeStamp;
 
 @end

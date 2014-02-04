@@ -32,13 +32,18 @@ Cafe *cafe;
     self.navigationItem.hidesBackButton = YES;
     
     [self.cafeName setText:cafe.name];
-    [self.decription setText:cafe.decs];
+    [self.decription setText:cafe.desc];
     [self.icon setImage:[UIImage imageNamed:cafe.img]];
     
     
-
+//    NSManagedObjectContext *localContext = [NSManagedObjectContext MR_contextForCurrentThread];
     
-    NSString* reward = [NSString stringWithFormat:@"You have %d stamps",cafe.rating];
+    NSString *cid = [NSString stringWithFormat:@"%@",cafe.cafeId];
+    NSArray *stmps = [Stamp MR_findByAttribute:@"cafeId" withValue:cid];
+    
+    
+    
+    NSString* reward = [NSString stringWithFormat:@"Stamps : %lu",(unsigned long)[stmps count]];
     [self.rewards setText:reward];
     
     [self.navigationItem setTitle:cafe.name];

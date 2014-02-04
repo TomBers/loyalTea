@@ -1,19 +1,17 @@
 //
-//  Cafe.m
+//  Stamp.m
 //  loyalTea
 //
 //  Created by Tom Berman on 04/02/2014.
 //  Copyright (c) 2014 TandO. All rights reserved.
 //
 
-#import "Cafe.h"
+#import "Stamp.h"
 
 
-@implementation Cafe
+@implementation Stamp
 
-@dynamic desc;
-@dynamic img;
-@dynamic name;
 @dynamic cafeId;
+@dynamic timeStamp;
 
 @end
