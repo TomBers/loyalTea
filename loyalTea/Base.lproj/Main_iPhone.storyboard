@@ -55,7 +55,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Stamp" id="HXQ-NU-rjb"/>
+                    <tabBarItem key="tabBarItem" title="Stamp" image="a.png" id="HXQ-NU-rjb"/>
                     <connections>
                         <outlet property="image" destination="fwl-ke-fhK" id="5Xf-6K-K7v"/>
                     </connections>
@@ -210,7 +210,7 @@
         <scene sceneID="Rvd-H1-kz2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nTT-49-yVq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Cafes" id="46C-ds-sKg"/>
+                    <tabBarItem key="tabBarItem" title="Cafes" image="b.png" id="46C-ds-sKg"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mxv-Gx-bpt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -227,6 +227,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="a.png" width="95" height="59"/>
+        <image name="b.png" width="83" height="55"/>
         <image name="stamp_3.jpg" width="320" height="410"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
